@@ -3,17 +3,17 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "joes-robot-shop": {
+    "my-robot-shop": {
       "projectType": "application",
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "bot",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/joes-robot-shop",
+            "outputPath": "dist/my-robot-shop",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
